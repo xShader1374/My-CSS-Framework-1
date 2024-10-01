@@ -1,6 +1,20 @@
-body {
+html {
   background: black;
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2xhZG9qaTZoMnU1bW1uZzNzY3JwcGtyZDE5aGlvODVkanl0MnhraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/irCR68lB8tZDy8GKb0/giphy.gif);
   color: aqua;
+  background-origin: content-box;
+  background-blend-mode: hard-light;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.425);
+  color: aqua;
+  background-origin: content-box;
+  background-blend-mode: hard-light;
+  background-size: cover;
+  background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,4 +25,9 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   scale: 1.1;
   transition: all .15s;
+}
+
+fieldset {
+  background-color: rgba(19, 100, 105, 0.267);
+  backdrop-filter: blur(8px);
 }
